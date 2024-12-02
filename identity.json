@@ -6,7 +6,8 @@
         "url": "https://yourwebsite.com",
         "description": "Replace this with your own, this appears in search results and when sharing.",
         "tags": ["your name", ", industry", "specialties"],
-        "avatar": "gravatar"
+        "avatar": "gravatar",
+        "avatar_class": "avatar--rounded"
     },
     "links": [
         {

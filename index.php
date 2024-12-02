@@ -23,9 +23,10 @@
   $language = !empty($data['meta']['language']) ? $data['meta']['language'] : 'en';
   
   $name = !empty($data['identity']['name']) ? $data['identity']['name'] : "Lil' Config Link";
-  $brand = !empty($data['identity']['branding']) ? $data['identity']['branding'] : "Lil' Config Link";
+  $brand = !empty($data['identity']['branding']) ? $data['identity']['branding'] : "";
   
   $avatar = !empty($data["identity"]["avatar"]) ? $data["identity"]["avatar"] : "/images/avatar.png";
+  $avatar_class = !empty($data["identity"]["avatar_class"]) ? $data["identity"]["avatar_class"] : "avatar-default";
 
   switch ($avatar) {
     case 'gravatar':
@@ -43,6 +44,7 @@ $description = !empty($data["identity"]["description"]) ? $data["identity"]["des
 $tags = !empty($data["identity"]["tags"]) ? implode(", ", $data["identity"]["tags"]) : "your name, industry, and specialties";
 $url = !empty($data["identity"]["url"]) ? $data["identity"]["url"] : "https://yourwebsite.com";
 $links = !empty($data["links"]) ? $data["links"] : array();
+
 ?>
 
 <html class="<?php echo $theme; ?>" lang="<?php echo $language; ?>">
@@ -53,19 +55,14 @@ $links = !empty($data["links"]) ? $data["links"] : array();
   <title><?php echo !empty($brand) ? $brand : $name; ?></title>
   <link rel="icon" type="image/x-icon" href="<?php echo $avatar_icon?>">
   
-  <!-- Meta Description - Write a description (150-160 characters recommended) -->
   <meta name="description" content="<?php echo $description; ?>">
   
-  <!-- Keywords -->
   <meta name="keywords" content="<?php echo $tags; ?>">
   
-  <!-- Canonical URL - Helps prevent duplicate content issues -->
   <meta rel="canonical" href="<?php echo $url; ?>">
   
-  <!-- Author Information -->
   <meta name="author" content="<?php $name; ?>">
   
-  <!-- Stylesheets -->
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/brands.css">
@@ -76,23 +73,14 @@ $links = !empty($data["links"]) ? $data["links"] : array();
     <div class="container">
         <div class="column">
 
-            <!-- 
-              By default, the Avatar is rounded. Use the following:
-              - avatar--rounded: Automatically rounds the image
-              - avatar--soft: Slightly rounds the image
-              - avatar--none: Removes any rounding
+            <img class="avatar <?php ?>" src="<?php echo $avatar_icon; ?>" srcset="<?php echo $avatar_icon; ?>" alt="LittleLink">
 
-              Be sure to replace the src with your own image path and update the alt text
-            -->
-            <img class="avatar avatar--rounded" src="<?php echo $avatar_icon; ?>" srcset="<?php echo $avatar_icon; ?>" alt="LittleLink">
-
-            <!-- Replace with your name or brand -->
             <h1 tabindex="0">
-              <div>LittleLink</div>
+              <div><?php echo !empty($brand) ? $brand : $name; ?></div>
             </h1>
 
             <!-- Add a short description about yourself or your brand -->
-            <p tabindex="0">An open source DIY Linktree alternative.</p>
+            <p tabindex="0"><?php echo $description; ?></p>
 
             <!-- All your buttons go here -->
             <div class="button-stack" role="navigation">
@@ -112,9 +100,9 @@ $links = !empty($data["links"]) ? $data["links"] : array();
               ?>
       </div>
         
-      <!-- Feel free to add your own footer information, including updating `privacy.html` to reflect how your LittleLink fork is set up -->
+      <!-- Feel free to add your own footer information, including updating `privacy.html` to reflect how your LilConfigLink fork is set up -->
       <footer>
-        <a href="privacy.html">Privacy Policy</a> | Build your own by forking <a href="https://littlelink.io" target="_blank" rel="noopener">LittleLink</a>
+        <a href="privacy.html">Privacy Policy</a> | Build your own by forking <a href="https://github.com/newball/lilconfiglink" target="_blank" rel="noopener">LilConfigLink</a>
       </footer>
     
     </div>
