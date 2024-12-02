@@ -79,12 +79,9 @@ $links = !empty($data["links"]) ? $data["links"] : array();
               <div><?php echo !empty($brand) ? $brand : $name; ?></div>
             </h1>
 
-            <!-- Add a short description about yourself or your brand -->
             <p tabindex="0"><?php echo $description; ?></p>
 
-            <!-- All your buttons go here -->
             <div class="button-stack" role="navigation">
-
               <?php 
                 if ( !empty($links) ) {
                   foreach ($links as $button) {
