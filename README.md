@@ -1,5 +1,3 @@
-![Logo](https://cdn.cottle.cloud/GitHub/LittleLink/littlelink.gif)
-
 # LilConfigLink
 A DIY, self-hosted LinkTree alternative, forked from [LittleLink](https://github.com/sethcottle/littlelink). The idea is simple... create a LinkTree like page using a file, that produces a single page of links.
 
