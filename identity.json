@@ -1,0 +1,435 @@
+{
+    "identity": {
+        "name": "Your Name",
+        "branding": "Your Brand",
+        "email": "example@example.com",
+        "url": "https://yourwebsite.com",
+        "description": "Replace this with your own, this appears in search results and when sharing.",
+        "tags": ["your name", ", industry", "specialties"],
+        "avatar": "gravatar"
+    },
+    "links": [
+        {
+            "title": "LittleLink",
+            "url": "#",
+            "class": "button-default",
+            "icon": "littlelink",
+            "description": "Little Link Logo"
+        },
+        {
+            "title": "Amazon Wishlist",
+            "url": "#",
+            "class": "button-amazon",
+            "icon": "amazon",
+            "description": "Amazon Wishlist Logo"
+        },
+        {
+            "title": "Listen on Amazon Music",
+            "url": "#",
+            "class": "button-amazon-music",
+            "icon": "amazon-music",
+            "description": "Amazon Music Logo"
+        },
+        {
+            "title": "Mailchimp",
+            "url": "#",
+            "class": "button-mailchimp",
+            "icon": "mailchimp",
+            "description": "Mailchimp Logo"
+        },
+        {
+            "title": "Mastodon",
+            "url": "#",
+            "class": "button-mastodon",
+            "icon": "mastodon",
+            "description": "Mastodon Logo"
+        },
+        {
+            "title": "Medium",
+            "url": "#",
+            "class": "button-medium",
+            "icon": "medium",
+            "description": "Medium Logo"
+        },
+        {
+            "title": "Microsoft Store",
+            "url": "#",
+            "class": "button-microsoft",
+            "icon": "microsoft",
+            "description": "Microsoft Logo"
+        },
+        {
+            "title": "Notion",
+            "url": "#",
+            "class": "button-notion",
+            "icon": "notion",
+            "description": "Notion Logo"
+        },
+        {
+            "title": "OnlyFans",
+            "url": "#",
+            "class": "button-onlyfans",
+            "icon": "onlyfans",
+            "description": "OnlyFans Logo"
+        },
+        {
+            "title": "Patreon",
+            "url": "#",
+            "class": "button-patreon",
+            "icon": "patreon",
+            "description": "Patreon Logo"
+        },
+        {
+            "title": "PayPal",
+            "url": "#",
+            "class": "button-paypal",
+            "icon": "paypal",
+            "description": "PayPal Logo"
+        },
+        {
+            "title": "Pinterest",
+            "url": "#",
+            "class": "button-pinterest",
+            "icon": "pinterest",
+            "description": "Pinterest Logo"
+        },
+        {
+            "title": "Product Hunt",
+            "url": "#",
+            "class": "button-product-hunt",
+            "icon": "product-hunt",
+            "description": "Product Hunt Logo"
+        },
+        {
+            "title": "Read.cv",
+            "url": "#",
+            "class": "button-read-cv",
+            "icon": "read-cv",
+            "description": "Read.cv Logo"
+        },
+        {
+            "title": "Reddit",
+            "url": "#",
+            "class": "button-reddit",
+            "icon": "reddit",
+            "description": "Reddit Logo"
+        },
+        {
+            "title": "Shop",
+            "url": "#",
+            "class": "button-shop",
+            "icon": "shop",
+            "description": "Buy with Shop"
+        },
+        {
+            "title": "Signal",
+            "url": "#",
+            "class": "button-signal",
+            "icon": "signal",
+            "description": "Signal Logo"
+        },
+        {
+            "title": "Slack",
+            "url": "#",
+            "class": "button-slack",
+            "icon": "slack",
+            "description": "Join Slack"
+        },
+        {
+            "title": "Snapchat",
+            "url": "#",
+            "class": "button-snapchat",
+            "icon": "snapchat",
+            "description": "Snapchat Logo"
+        },
+        {
+            "title": "SoundCloud",
+            "url": "#",
+            "class": "button-soundcloud",
+            "icon": "soundcloud",
+            "description": "SoundCloud Logo"
+        },
+        {
+            "title": "Spotify",
+            "url": "#",
+            "class": "button-spotify",
+            "icon": "spotify",
+            "description": "Listen on Spotify"
+        },
+        {
+            "title": "Square",
+            "url": "#",
+            "class": "button-square",
+            "icon": "square",
+            "description": "Buy with Square"
+        },
+        {
+            "title": "Stack Overflow",
+            "url": "#",
+            "class": "button-stack-overflow",
+            "icon": "stack-overflow",
+            "description": "Stack Overflow Logo"
+        },
+        {
+            "title": "Steam",
+            "url": "#",
+            "class": "button-steam",
+            "icon": "steam",
+            "description": "Steam Logo"
+        },
+        {
+            "title": "Strava",
+            "url": "#",
+            "class": "button-strava",
+            "icon": "strava",
+            "description": "Strava Logo"
+        },
+        {
+            "title": "Substack",
+            "url": "#",
+            "class": "button-substack",
+            "icon": "substack",
+            "description": "Substack Logo"
+        },
+        {
+            "title": "Telegram",
+            "url": "#",
+            "class": "button-telegram",
+            "icon": "telegram",
+            "description": "Telegram Logo"
+        },
+        {
+            "title": "Threads",
+            "url": "#",
+            "class": "button-threads",
+            "icon": "threads",
+            "description": "Threads Logo"
+        },
+        {
+            "title": "Threema",
+            "url": "#",
+            "class": "button-threema",
+            "icon": "threema",
+            "description": "Threema Logo"
+        },
+        {
+            "title": "TikTok",
+            "url": "#",
+            "class": "button-tiktok",
+            "icon": "tiktok",
+            "description": "TikTok Logo"
+        },
+        {
+            "title": "Trello",
+            "url": "#",
+            "class": "button-trello",
+            "icon": "trello",
+            "description": "Trello Logo"
+        },
+        {
+            "title": "Tumblr",
+            "url": "#",
+            "class": "button-tumb",
+            "icon": "tumblr",
+            "description": "Tumblr Logo"
+        },
+        {
+            "title": "Twitch",
+            "url": "#",
+            "class": "button-twitch",
+            "icon": "twitch",
+            "description": "Twitch Logo"
+        },
+        {
+            "title": "Unsplash",
+            "url": "#",
+            "class": "button-unsplash",
+            "icon": "unsplash",
+            "description": "Unsplash Logo"
+        },
+        {
+            "title": "Venmo",
+            "url": "#",
+            "class": "button-venmo",
+            "icon": "venmo",
+            "description": "Venmo Logo"
+        },
+        {
+            "title": "Vimeo",
+            "url": "#",
+            "class": "button-vimeo",
+            "icon": "vimeo",
+            "description": "Vimeo Logo"
+        },
+        {
+            "title": "VSCO",
+            "url": "#",
+            "class": "button-vsco",
+            "icon": "vsco",
+            "description": "VSCO Logo"
+        },
+        {
+            "title": "WhatsApp",
+            "url": "#",
+            "class": "button-whatsapp",
+            "icon": "whatsapp",
+            "description": "WhatsApp Logo"
+        },
+        {
+            "title": "WordPress",
+            "url": "#",
+            "class": "button-wordpress",
+            "icon": "wordpress",
+            "description": "WordPress Logo"
+        },
+        {
+            "title": "X",
+            "url": "#",
+            "class": "button-x",
+            "icon": "x",
+            "description": "Follow on X"
+        },
+        {
+            "title": "YouTube",
+            "url": "#",
+            "class": "button-yt",
+            "icon": "youtube",
+            "description": "YouTube Logo"
+        },
+        {
+            "title": "YouTube Music",
+            "url": "#",
+            "class": "button-yt",
+            "icon": "youtube-music",
+            "description": "YouTube Music Logo"
+        },
+        {
+            "title": "Zoom",
+            "url": "#",
+            "class": "button-zoom",
+            "icon": "zoom",
+            "description": "Zoom Logo"
+        },
+        {
+            "title": "Read our blog",
+            "url": "#",
+            "class": "button-default",
+            "icon": "generic-blog",
+            "description": "Blog Icon"
+        },
+        {
+            "title": "Event RSVP",
+            "url": "#",
+            "class": "button-default",
+            "icon": "generic-calendar",
+            "description": "Calendar Icon"
+        },
+        {
+            "title": "Download File",
+            "url": "#",
+            "class": "button-default",
+            "icon": "generic-cloud",
+            "description": "Cloud Icon"
+        },
+        {
+            "title": "View the code",
+            "url": "#",
+            "class": "button-default",
+            "icon": "generic-code",
+            "description": "Code Icon"
+        },
+        {
+            "title": "Homelab Setup",
+            "url": "#",
+            "class": "button-default",
+            "icon": "generic-computer",
+            "description": "Computer Icon"
+        },
+        {
+            "title": "Email Us",
+            "url": "#",
+            "class": "button-default",
+            "icon": "generic-email",
+            "description": "Email Icon"
+        },
+        {
+            "title": "Email Us",
+            "url": "#",
+            "class": "button-default",
+            "icon": "generic-email-alt",
+            "description": "Email Icon"
+        },
+        {
+            "title": "Visit Homepage",
+            "url": "#",
+            "class": "button-default",
+            "icon": "generic-homepage",
+            "description": "Homepage Icon"
+        },
+        {
+            "title": "Get Directions",
+            "url": "#",
+            "class": "button-default",
+            "icon": "generic-map",
+            "description": "Map Icon"
+        },
+        {
+            "title": "Call Us",
+            "url": "#",
+            "class": "button-default",
+            "icon": "generic-phone",
+            "description": "Phone Icon"
+        },
+        {
+            "title": "Leave us a review",
+            "url": "#",
+            "class": "button-default",
+            "icon": "generic-review",
+            "description": "Review Icon"
+        },
+        {
+            "title": "RSS Subscribe",
+            "url": "#",
+            "class": "button-default",
+            "icon": "generic-rss",
+            "description": "RSS Icon"
+        },
+        {
+            "title": "Visit Our Shop",
+            "url": "#",
+            "class": "button-default",
+            "icon": "generic-shopping-bag",
+            "description": "Shopping Bag Icon"
+        },
+        {
+            "title": "10% Discount",
+            "url": "#",
+            "class": "button-default",
+            "icon": "generic-shopping-tag",
+            "description": "Shopping Tag Icon"
+        },
+        {
+            "title": "Send us a message",
+            "url": "#",
+            "class": "button-default",
+            "icon": "generic-sms",
+            "description": "SMS Icon"
+        },
+        {
+            "title": "Visit Website",
+            "url": "#",
+            "class": "button-default",
+            "icon": "generic-website",
+            "description": "Website Icon"
+        }
+    ],
+    "branding": {
+        "theme": "theme-auto"
+    },
+    "meta": {
+        "rel": "self",
+        "href": "http://localhost:8080/identity",
+        "version": "1.0.0",
+        "language": "en"
+    }
+}
